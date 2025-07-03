@@ -1,0 +1,180 @@
+*,
+*::before,
+*::after{
+    box-sizing:border-box;
+}
+
+body{
+    font-family: "Noto Sans", sans-serif;
+    line-height: 1.5;
+    letter-spacing: 0.05em;
+}
+
+h3{
+    font-size: 24px;
+    line-height: 1.2;
+    font-weight: 700;
+    color: #212529;
+}
+
+h4{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.2;
+    color: #57A203;
+}
+
+p{
+    font-size: 16px;
+    font-weight: 400;
+    color:#212529
+}
+
+.about_text,.history,.idea,.story{
+    max-width: 856px;
+    margin: 0 auto;
+}
+
+.container{
+    margin: 0 auto;
+}
+.header{
+    background: url(https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week1/hero.png?raw=true) no-repeat;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    background-position: center;
+    background-size: cover;
+    
+}
+.title{
+    padding: 151px 0;
+    text-align: center;
+}
+.title h1{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.2;
+    color: #FFFFFF;
+    text-align: center;
+}
+.title h2{
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 1.2;
+    color: #FFFFFF;
+    text-align: center;
+}
+.slogan{
+    margin: 0 auto;
+    max-width: 856px;
+    text-align: center;
+    padding: 32px;
+    background: #F5FEE7;
+    
+}
+
+.about{
+    max-width: 1076px;
+    margin: 0 auto;
+}
+.hero{
+    width: 100%;
+}
+
+.history li{
+    list-style: disc;
+    text-indent : 0.5em;
+    list-style-position: inside;
+}
+.history li::marker{
+    font-size: 10px;
+}
+
+.border_l{
+    border-left: #DEE2E6 solid 3px;
+}
+
+.history_a{
+    text-decoration: none;
+    color: #57A203;
+    display: inline-block;
+    vertical-align: middle;
+    border-bottom: 1px solid #57A203;
+}
+.history_a:hover{
+    color: #C0FA73;
+    border-bottom :1px solid #C0FA73;
+}
+.arrow{
+    padding: 2.5px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.footer{
+    width: 100%;
+    text-align: center;
+    background: #F8F9FA;
+    padding: 64px 0;
+}
+.footer_text{
+    color: #6C757D;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+
+/*  常用 */
+.ptb-8{
+    padding: 8px 0;
+}
+.pl-8{
+    padding-left: 8px;
+}
+.pl-12{
+    padding-left: 12px;
+}
+.pd-32{
+   padding: 32px;
+}
+.pb-4{
+    padding-bottom: 4px;
+}
+.pb-16{
+    padding-bottom: 16px;
+}
+.pb-24{
+    padding-bottom: 16px;
+}
+.pb-48{
+    padding-bottom: 48px;
+}
+.mb-4{
+    margin-bottom: 4px;
+}
+.mrl-8{
+    margin: 0 8px;
+}
+.mb-12{
+    margin-bottom: 12px;
+}
+.mb-16{
+    margin-bottom: 16px;
+}
+.mb-18{
+    margin-bottom: 18px;
+}
+.mb-24{
+    margin-bottom: 24px;
+}
+.mb-48{
+    margin-bottom: 48px;
+}
+.mb-64{
+    margin-bottom: 48px;
+}
+.mr-8{
+    margin-right: 8;
+}
+.border_b{
+    border-bottom: 1px solid #DEE2E6;
+}
